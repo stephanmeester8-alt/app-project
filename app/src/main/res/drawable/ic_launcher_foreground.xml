@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Cyber Hex Shield -->
+    <path
+        android:pathData="M54,22 L78,34 L78,62 L54,86 L30,62 L30,34 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F0FF"
+        android:fillColor="#152238" />
+
+    <!-- Shield Gradient Accent -->
+    <path
+        android:pathData="M54,26 L74,36 L74,60 L54,80 L34,60 L34,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="26"
+                android:endX="74"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#3300F0FF" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="0.8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Vault Padlock Shackle -->
+    <path
+        android:pathData="M46,47 L46,41 C46,36.58 49.58,33 54,33 C58.42,33 62,36.58 62,41 L62,47"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFD166"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Vault Central Body & Core -->
+    <path
+        android:pathData="M42,46 L66,46 C68.2,46 70,47.8 70,50 L70,68 C70,70.2 68.2,72 66,72 L42,72 C39.8,72 38,70.2 38,68 L38,50 C38,47.8 39.8,46 42,46 Z"
+        android:fillColor="#FFD166" />
+
+    <!-- AI Core Keyhole / Glowing Nexus -->
+    <path
+        android:pathData="M54,53 C52.34,53 51,54.34 51,56 C51,57.18 51.68,58.2 52.68,58.7 L51.5,65 L56.5,65 L55.32,58.7 C56.32,58.2 57,57.18 57,56 C57,54.34 55.66,53 54,53 Z"
+        android:fillColor="#0D1B2A" />
+
+    <!-- Neural Network Nodes & Data Flow Connectors -->
+    <path
+        android:pathData="M24,42 L30,42 M78,42 L84,42 M24,66 L30,66 M78,66 L84,66 M54,16 L54,22 M54,86 L54,92"
+        android:strokeWidth="2"
+        android:strokeColor="#00F0FF"
+        android:strokeLineCap="round" />
+    
+    <path
+        android:pathData="M22,42 A2,2 0 1,1 26,42 A2,2 0 1,1 22,42 M82,42 A2,2 0 1,1 86,42 A2,2 0 1,1 82,42 M22,66 A2,2 0 1,1 26,66 A2,2 0 1,1 22,66 M82,66 A2,2 0 1,1 86,66 A2,2 0 1,1 82,66 M52,14 A2,2 0 1,1 56,14 A2,2 0 1,1 52,14 M52,94 A2,2 0 1,1 56,94 A2,2 0 1,1 52,94"
+        android:fillColor="#00F0FF" />
+</vector>
